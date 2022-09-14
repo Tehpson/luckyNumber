@@ -5,7 +5,6 @@ public class Main {
         var gameLogic = new GameLogic();
         var playing = true;
 
-        System.out.println("You have " + gameLogic.Pix + " pix");
         while (playing){
             var bet = UserInput.GetBet(gameLogic);
             var luckyNumber = UserInput.GetLuckyNumber();
